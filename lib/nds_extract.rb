@@ -89,7 +89,7 @@ def gross_per_studio(collection)
   result = {}
 
   for i in 0...collection.length do
-     result[collection][:studio] = result[collection][:worldwide_gross]
+     result[collection][:studio] = collection[:worldwide_gross]
   end
   result
   pp result
