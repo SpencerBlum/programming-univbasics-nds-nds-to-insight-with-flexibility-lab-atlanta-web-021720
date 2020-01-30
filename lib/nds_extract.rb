@@ -99,7 +99,7 @@ def gross_per_studio(collection)
      end
   end
   result
-  pp result
+  # pp result
   # RETURN:
   #
   # Hash whose keys are the studio names and whose values are the sum
