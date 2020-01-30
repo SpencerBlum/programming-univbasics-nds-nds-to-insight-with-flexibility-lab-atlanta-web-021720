@@ -47,7 +47,7 @@ def movies_with_director_key(name, movies_collection)
 
     result = []
 
-    movies_collection.each do [i]
+    movies_collection.each do |i|
 
       result << movie_with_director_name(name, movies_collection)
 
