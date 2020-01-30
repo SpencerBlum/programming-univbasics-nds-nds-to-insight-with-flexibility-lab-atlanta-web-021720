@@ -92,6 +92,7 @@ def gross_per_studio(collection)
      result[collection][:studio] = result[collection][:worldwide_gross]
   end
   result
+  pp result
   # RETURN:
   #
   # Hash whose keys are the studio names and whose values are the sum
