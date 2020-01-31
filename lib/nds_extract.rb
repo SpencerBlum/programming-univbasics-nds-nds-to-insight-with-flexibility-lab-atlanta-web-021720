@@ -85,6 +85,14 @@ def gross_per_studio(collection)
   # INPUT:
   # * collection: Array of Hashes where each Hash where each Hash represents a movie
   #ñ
+
+  # test_data = [
+  #   { :title => "Movie A", :studio => "Alpha Films", :worldwide_gross => 10 },
+  #   { :title => "Movie B", :studio => "Alpha Films", :worldwide_gross => 30 },
+  #   { :title => "Movie C", :studio => "Omega Films", :worldwide_gross => 30 }
+  # ]
+
+
   pp collection
   result = {}
 
@@ -99,6 +107,9 @@ def gross_per_studio(collection)
      end
   end
   result
+
+
+
   # pp result
   # RETURN:
   #
@@ -107,6 +118,25 @@ def gross_per_studio(collection)
 end
 
 def movies_with_directors_set(source)
+
+
+
+  # let (:test_data) {
+  #   [
+  #     { :name => "Byron Poodle", :movies => [
+  #       { :title => "At the park" },
+  #       { :title => "On the couch" },
+  #     ]
+  #     },
+  #     { :name => "Nancy Drew", :movies => [
+  #       { :title => "Biting" },
+  #     ]
+  #     }
+  #   ]
+  # }
+
+  
+
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
   # INPUT:
